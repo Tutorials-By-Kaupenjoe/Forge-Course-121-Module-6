@@ -62,6 +62,10 @@ public class ModBlockLootTables extends BlockLootSubProvider {
 
         this.add(ModBlocks.BALSA_LEAVES.get(), block ->
                 createLeavesDrops(block, ModBlocks.BALSA_SAPLING.get(), NORMAL_LEAVES_SAPLING_CHANCES));
+
+        this.dropSelf(ModBlocks.CATMINT.get());
+        this.add(ModBlocks.POTTED_CATMINT.get(),
+                createPotFlowerItemTable(ModBlocks.CATMINT.get()));
     }
 
     protected LootTable.Builder createMultipleOreDrops(Block pBlock, Item item, float minDrops, float maxDrops) {

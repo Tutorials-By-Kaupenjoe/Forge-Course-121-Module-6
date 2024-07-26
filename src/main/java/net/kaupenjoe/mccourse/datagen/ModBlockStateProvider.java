@@ -61,6 +61,12 @@ public class ModBlockStateProvider extends BlockStateProvider {
 
         leavesBlock(ModBlocks.BALSA_LEAVES);
         saplingBlock(ModBlocks.BALSA_SAPLING);
+
+        simpleBlock(ModBlocks.CATMINT.get(),
+                models().cross(blockTexture(ModBlocks.CATMINT.get()).getPath(), blockTexture(ModBlocks.CATMINT.get())).renderType("cutout"));
+        simpleBlock(ModBlocks.POTTED_CATMINT.get(),
+                models().singleTexture("potted_catmint", ResourceLocation.parse("flower_pot_cross"), "plant",
+                        blockTexture(ModBlocks.CATMINT.get())).renderType("cutout"));
     }
 
     private void leavesBlock(RegistryObject<Block> blockRegistryObject) {

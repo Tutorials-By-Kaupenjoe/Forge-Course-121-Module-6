@@ -8,6 +8,7 @@ import net.kaupenjoe.mccourse.worldgen.tree.ModTreeGrowers;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.util.valueproviders.UniformInt;
+import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.BlockGetter;
@@ -119,6 +120,10 @@ public class ModBlocks {
     public static final RegistryObject<Block> BALSA_SAPLING = registerBlock("balsa_sapling",
             () -> new SaplingBlock(ModTreeGrowers.BALSA, BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_SAPLING)));
 
+    public static final RegistryObject<Block> CATMINT = registerBlock("catmint",
+            () -> new FlowerBlock(MobEffects.LUCK, 6, BlockBehaviour.Properties.ofFullCopy(Blocks.ALLIUM)));
+    public static final RegistryObject<Block> POTTED_CATMINT = BLOCKS.register("potted_catmint",
+            () -> new FlowerPotBlock((() -> (FlowerPotBlock) Blocks.FLOWER_POT), CATMINT, BlockBehaviour.Properties.ofFullCopy(Blocks.POTTED_ALLIUM)));
 
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {

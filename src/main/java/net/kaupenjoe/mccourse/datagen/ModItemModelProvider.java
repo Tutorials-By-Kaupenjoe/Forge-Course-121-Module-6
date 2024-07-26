@@ -33,6 +33,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleBlockItem(ModBlocks.AZURITE_DOOR);
 
         saplingItem(ModBlocks.BALSA_SAPLING);
+        saplingItem(ModBlocks.CATMINT);
     }
 
     private ItemModelBuilder saplingItem(RegistryObject<Block> item) {

@@ -63,6 +63,9 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.BALSA_SAPLING.get());
 
                         output.accept(ModBlocks.BALSA_LEAVES.get());
+
+                        output.accept(ModBlocks.CATMINT.get());
+
                     }).build());
 
 

@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "minecraft:cherry_grove",
+  "features": "mccourse:camint_placed",
+  "step": "vegetal_decoration"
+}

@@ -1,4 +1,4 @@
-// 1.21	2024-07-26T14:01:03.6980468	Block States: mccourse
+// 1.21	2024-07-26T15:16:54.4241836	Block States: mccourse
 bbfaa01f68eb5799769daacd3cc8742de0b55dde assets/mccourse/blockstates/azurite_block.json
 80930b2d8d812d82062fd0c751c3f5a4a9facc76 assets/mccourse/blockstates/azurite_button.json
 078f124a805467fb14e16025335317864628c226 assets/mccourse/blockstates/azurite_deepslate_ore.json
@@ -18,7 +18,9 @@ bd6b6796806a13d688afdcc901dbc128a0fa34b4 assets/mccourse/blockstates/balsa_leave
 257aa92fb223609c6830fe94528620ce2323466b assets/mccourse/blockstates/balsa_planks.json
 174044b7b6b123d8f5d0bc7d7395693d554b0c69 assets/mccourse/blockstates/balsa_sapling.json
 d23dc2876e22ca3634aed82fbfa3e60059fe6f64 assets/mccourse/blockstates/balsa_wood.json
+d5a39cdf4ad8e3c7856d03a3e2249be9f9c6ee93 assets/mccourse/blockstates/catmint.json
 bc7d21f942c84b754066fc4a8c9f34dc61953149 assets/mccourse/blockstates/magic_block.json
+df1519a0e00b05f78c8f6bf2c6da8bf420b41db2 assets/mccourse/blockstates/potted_catmint.json
 8324e70ad075a6f95f13d08614c53670f8367dd9 assets/mccourse/blockstates/stripped_balsa_log.json
 230494aa9382e8c872caa6d6459c7dd0e7f1158f assets/mccourse/blockstates/stripped_balsa_wood.json
 e6c6ffdc3a0c08a656e61b87a2f54b9243808262 assets/mccourse/models/block/azurite_block.json
@@ -62,7 +64,9 @@ cb061e09eba1551525dda696805101f553a1eacb assets/mccourse/models/block/azurite_wa
 66c77b55c7c0ad15f77f1b5b5199a38f83c1ff6d assets/mccourse/models/block/balsa_sapling.json
 bf7e3dc25f06bc2f2833b61b292587dd6be3c8e5 assets/mccourse/models/block/balsa_wood.json
 5f5c000eeb3126b092ba05221e9e010bc2246cea assets/mccourse/models/block/balsa_wood_horizontal.json
+9e9b000bb26124500449fcc789666057f2552952 assets/mccourse/models/block/catmint.json
 e3bea00dd7e933deb59eaf492b010a1f8fdd914f assets/mccourse/models/block/magic_block.json
+c59aa11c0704ea41a40adc7eae9a6066a1d107d9 assets/mccourse/models/block/potted_catmint.json
 ae6f5b6ca00eb62ca14553d56a347cc041766444 assets/mccourse/models/block/stripped_balsa_log.json
 8c40f218a2aee50b62daf6d886ae4b6f5421fd96 assets/mccourse/models/block/stripped_balsa_log_horizontal.json
 0631b2e91e9e1fbed9df00b5be5f1b42a6a02334 assets/mccourse/models/block/stripped_balsa_wood.json
