@@ -27,6 +27,16 @@
   "block.mccourse.azurite_door": "Azurite Door",
   "block.mccourse.azurite_trapdoor": "Azurite Trapdoor",
 
+  "block.mccourse.balsa_log": "Balsa Log",
+  "block.mccourse.balsa_planks": "Balsa Planks",
+  "block.mccourse.balsa_wood": "Balsa Wood",
+  "block.mccourse.stripped_balsa_log": "Stripped Balsa Log",
+  "block.mccourse.stripped_balsa_wood": "Stripped Balsa Wood",
+  "block.mccourse.balsa_leaves": "Balsa Leaves",
+
+  "block.mccourse.balsa_sapling": "Balsa Sapling",
+
+  
 
   "tooltip.mccourse.chainsaw.tooltip.shift": "Press §eShift§r for more Information!",
   "tooltip.mccourse.chainsaw.tooltip.1": "This Chainsaw will cut down trees fast!",

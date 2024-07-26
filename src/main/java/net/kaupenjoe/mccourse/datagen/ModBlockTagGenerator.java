@@ -41,5 +41,12 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
         this.tag(BlockTags.FENCE_GATES).add(ModBlocks.AZURITE_FENCE_GATE.get());
         this.tag(BlockTags.WALLS).add(ModBlocks.AZURITE_WALL.get());
 
+        this.tag(BlockTags.LOGS_THAT_BURN)
+                .add(ModBlocks.BALSA_LOG.get())
+                .add(ModBlocks.BALSA_WOOD.get())
+                .add(ModBlocks.STRIPPED_BALSA_LOG.get())
+                .add(ModBlocks.STRIPPED_BALSA_WOOD.get());
+
+
     }
 }

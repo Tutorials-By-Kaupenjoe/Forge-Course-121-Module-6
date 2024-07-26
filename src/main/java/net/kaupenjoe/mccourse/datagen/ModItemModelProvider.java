@@ -31,6 +31,14 @@ public class ModItemModelProvider extends ItemModelProvider {
         wallItem(ModBlocks.AZURITE_WALL, ModBlocks.AZURITE_BLOCK);
 
         simpleBlockItem(ModBlocks.AZURITE_DOOR);
+
+        saplingItem(ModBlocks.BALSA_SAPLING);
+    }
+
+    private ItemModelBuilder saplingItem(RegistryObject<Block> item) {
+        return withExistingParent(item.getId().getPath(),
+                ResourceLocation.parse("item/generated")).texture("layer0",
+                ResourceLocation.fromNamespaceAndPath(MCCourseMod.MOD_ID,"block/" + item.getId().getPath()));
     }
 
     public void buttonItem(RegistryObject<Block> block, RegistryObject<Block> baseBlock) {

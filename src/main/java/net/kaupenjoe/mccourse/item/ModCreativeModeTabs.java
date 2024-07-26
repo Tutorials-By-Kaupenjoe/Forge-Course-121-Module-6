@@ -53,6 +53,16 @@ public class ModCreativeModeTabs {
 
                         output.accept(ModBlocks.AZURITE_DOOR.get());
                         output.accept(ModBlocks.AZURITE_TRAPDOOR.get());
+
+                        output.accept(ModBlocks.BALSA_LOG.get());
+                        output.accept(ModBlocks.BALSA_WOOD.get());
+                        output.accept(ModBlocks.STRIPPED_BALSA_LOG.get());
+                        output.accept(ModBlocks.STRIPPED_BALSA_WOOD.get());
+
+                        output.accept(ModBlocks.BALSA_PLANKS.get());
+                        output.accept(ModBlocks.BALSA_SAPLING.get());
+
+                        output.accept(ModBlocks.BALSA_LEAVES.get());
                     }).build());
 
 
