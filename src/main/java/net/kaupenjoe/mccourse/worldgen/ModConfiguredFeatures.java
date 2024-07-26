@@ -45,7 +45,7 @@ public class ModConfiguredFeatures {
                 BlockStateProvider.simple(ModBlocks.BALSA_LEAVES.get()),
                 new CherryFoliagePlacer(ConstantInt.of(6), ConstantInt.of(3), ConstantInt.of(7),
                         0.2f, 0.5f, 0.2f, 0.5f),
-                new TwoLayersFeatureSize(1, 0, 2)).build());
+                new TwoLayersFeatureSize(1, 0, 2)).dirt(BlockStateProvider.simple(Blocks.END_STONE)).build());
 
         RuleTest stoneReplaceables = new TagMatchTest(BlockTags.STONE_ORE_REPLACEABLES);
         RuleTest deepslateReplaceables = new TagMatchTest(BlockTags.DEEPSLATE_ORE_REPLACEABLES);

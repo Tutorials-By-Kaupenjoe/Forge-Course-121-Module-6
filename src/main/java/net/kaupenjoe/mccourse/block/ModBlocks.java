@@ -3,6 +3,7 @@ package net.kaupenjoe.mccourse.block;
 import net.kaupenjoe.mccourse.MCCourseMod;
 import net.kaupenjoe.mccourse.block.custom.MagicBlock;
 import net.kaupenjoe.mccourse.block.custom.ModFlammableRotatedPillarBlock;
+import net.kaupenjoe.mccourse.block.custom.ModSaplingBlock;
 import net.kaupenjoe.mccourse.item.ModItems;
 import net.kaupenjoe.mccourse.worldgen.tree.ModTreeGrowers;
 import net.minecraft.core.BlockPos;
@@ -118,7 +119,7 @@ public class ModBlocks {
             });
 
     public static final RegistryObject<Block> BALSA_SAPLING = registerBlock("balsa_sapling",
-            () -> new SaplingBlock(ModTreeGrowers.BALSA, BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_SAPLING)));
+            () -> new ModSaplingBlock(ModTreeGrowers.BALSA, BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_SAPLING), Blocks.END_STONE));
 
     public static final RegistryObject<Block> CATMINT = registerBlock("catmint",
             () -> new FlowerBlock(MobEffects.LUCK, 6, BlockBehaviour.Properties.ofFullCopy(Blocks.ALLIUM)));
