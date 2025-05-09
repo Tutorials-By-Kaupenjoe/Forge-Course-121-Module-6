@@ -1,10 +1,13 @@
-// 1.21	2024-07-26T15:47:45.8816094	Registries
+// 1.21.1	2025-05-09T09:50:14.8776564	Registries
 a1a8070c60150b37f4195dab0674b6dc0e321f8a data/mccourse/forge/biome_modifier/add_azurite_geode.json
 41755e132f586f41d976e3ad86420ddb6f8c11a3 data/mccourse/forge/biome_modifier/add_azurite_ore.json
 11778ac6265fdba0f1435392acdbde5cb4be8da7 data/mccourse/forge/biome_modifier/add_catmint.json
 854450fd9f43b6a54a428316acc0d99e8850567c data/mccourse/forge/biome_modifier/add_end_azurite_ore.json
 9912b5b3d4f09a7c1b95a619cdc1ff0d103177ee data/mccourse/forge/biome_modifier/add_nether_azurite_ore.json
 3155a550b422ce240ff089e5e8842050bdf33931 data/mccourse/forge/biome_modifier/add_tree_balsa.json
+12d084947d492a5799d8d179c218a80b99d3247e data/mccourse/worldgen/biome/end_rot.json
+88178f21eb10980efb60088cdf87dc9460d7ac53 data/mccourse/worldgen/biome/glowstone_plain.json
+8de286edb47922f6129ad1b5d04564b1f5e89d93 data/mccourse/worldgen/biome/kaupen_valley.json
 f6f7109fbca97d853de301c5c1de011b382e5be7 data/mccourse/worldgen/configured_feature/azurite_geode.json
 17548e623ee81768f0937ae8805a8a27fbc1d472 data/mccourse/worldgen/configured_feature/azurite_ore.json
 ec44c0e5b19cd17b174da2195b276653e81e1150 data/mccourse/worldgen/configured_feature/balsa.json
